@@ -103,5 +103,24 @@ h1 {
 
 .quote {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
 }
+ .quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 825px;
+    margin-bottom: 0px;
+    font-style: italic;
+ }
+
+ .quote-author {
+    display: flex;
+    justify-content: end;
+    margin-left: 40%;
+    font-weight: 800;
+ }
