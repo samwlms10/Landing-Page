@@ -164,3 +164,10 @@ h1 {
 .container-3-information h4 {
     margin-bottom: 0;
 }
+
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
