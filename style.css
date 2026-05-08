@@ -124,3 +124,43 @@ h1 {
     margin-left: 40%;
     font-weight: 800;
  }
+
+ .flex-container-3 {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+ }
+
+ .container-3-information {
+    display: flex;
+    flex-direction: column;
+    color: white;
+ }
+
+ .container-3-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    border-radius: 6px;
+    margin: auto;
+ }
+
+.container-3-button {
+    background-color: #3882F6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: solid 2px;
+    border-color: white;
+}
+
+.container-3-information h4 {
+    margin-bottom: 0;
+}
